@@ -1,0 +1,21 @@
+:root {
+	--dark-bg-primary: #1b1e28;
+	--dark-bg-secondary: #272b39;
+	--red: #ff304a;
+	--text-color: #ffffff;
+	--text-color-hover: #b8becd;
+	--box-shadow: 0px 5px 10px -1px rgba(53, 53, 53, 0.79);
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'DM Sans', sans-serif;
+	scroll-behavior: smooth;
+}
+
+body {
+	background: var(--dark-bg-primary);
+	height: 200vh;
+}
